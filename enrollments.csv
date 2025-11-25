@@ -1,0 +1,5 @@
+employee_id,plan_type,carrier,coverage_level,effective_date,term_date
+E001,Medical,BlueCross,Employee+Family,2025-01-01,
+E001,Dental,Delta Dental,Employee+Family,2025-01-01,
+E002,Medical,BlueCross,Employee,03/01/2022,
+E004,Vision,VSP,Employee,01/01/2024,

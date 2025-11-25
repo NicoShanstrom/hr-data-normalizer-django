@@ -8,7 +8,7 @@ class Employee(models.Model):
     ("unknown", "Unknown"),
   ]
 
-  employee_id = models.CharField(max_length=32, unque=True)
+  employee_id = models.CharField(max_length=32, unique=True)
   first_name = models.CharField(max_length=64)
   last_name = models.CharField(max_length=64)
   department = models.CharField(max_length=128, blank=True)

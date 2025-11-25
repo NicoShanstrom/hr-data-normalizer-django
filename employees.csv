@@ -1,0 +1,4 @@
+employee_id,first_name,last_name,department,status,hire_date,term_date
+E001,Nico,Shanstrom,Engineering,Active,01/15/2023,
+E002,Avery,Goode,People,Leave,2022-03-01,
+E003,Jordan,Smith,Sales,Terminated,02/10/2020,10/01/2024
