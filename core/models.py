@@ -14,7 +14,7 @@ class Employee(models.Model):
   department = models.CharField(max_length=128, blank=True)
   status = models.CharField(max_length=16, choices=STATUS_CHOICES, default="unknown")
   hire_date = models.DateField(null=True, blank=True)
-  term_data = models.DateField(null=True, blank=True)
+  term_date = models.DateField(null=True, blank=True)
 
   def __str__(self):
     return f"{self.employee_id} - {self.first_name} {self.last_name}"
