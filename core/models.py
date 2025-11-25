@@ -22,7 +22,7 @@ class Employee(models.Model):
 class Enrollment(models.Model):
   employee = models.ForeignKey(
     Employee,
-    on_delete=models.CASCADE
+    on_delete=models.CASCADE,
     related_name="enrollments",
   )
   plan_type = models.CharField(max_length=32) # e.g. "medical"
