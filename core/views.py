@@ -4,7 +4,8 @@ from .serializers import EmployeeSerializer
 
 class EmployeeViewSet(viewsets.ReadOnlyModelViewSet):
   """
-  Read-only API for employees + their enrollments. This is basically a DRF version of serializers from Rails land
+  Read-only API for employees + their enrollments.
   """
   queryset = Employee.objects.all().order_by("employee_id")
   serializer_class = EmployeeSerializer
+  lookup_field = "employee_id"
